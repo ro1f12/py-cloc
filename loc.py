@@ -45,7 +45,7 @@ def py_cloc(fullpath, dirname, comment_tag = "//", macro_tag = "#"):
 
 #main function
 def main():
-    if len(sys.argv) != 2:
+    if len(sys.argv) < 2:
         print ("\t\tUsage: <program> <file name>")
         quit()
 
